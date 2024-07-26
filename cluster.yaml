@@ -1,0 +1,21 @@
+__default__:
+  account: your_account
+  partition: your_partition
+  time: "01:00:00"
+  nodes: 1
+  ntasks: 1
+
+fastp:
+  time: "00:30:00"
+
+abyss:
+  time: "02:00:00"
+
+skesa:
+  time: "01:00:00"
+
+spades:
+  time: "04:00:00"
+
+reconciled_assemblies:
+  time: "03:00:00"

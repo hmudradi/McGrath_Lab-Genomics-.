@@ -1,0 +1,22 @@
+input_reads_directory: "/path/to/input_reads"
+output_folder: "/path/to/output"
+tools_folder: "/path/to/tools"
+threads: 6
+memory: 10
+
+samples:
+  - sample1
+  - sample2
+  - sample3
+
+fastp_params:
+  cut_mean_quality: 28
+  average_qual: 28
+  cut_window_size: 20
+
+abyss_params:
+  kmer: 21
+
+gam_params:
+  bmin: 10
+  tc: 0.75
