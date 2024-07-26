@@ -1,0 +1,9 @@
+name: gam-ngs
+channels:
+  - bioconda
+dependencies:
+  - bwa
+  - samtools
+  - cmake
+  - boost
+  - google-sparsehash
